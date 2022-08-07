@@ -36,11 +36,14 @@ public class Uso_Empleado {
         
         /*pasar paramentros al constructor*/
         Empleado empleado1 = new Empleado("nelson",85000,2021,12,17);
+        Empleado empleado2 = new Empleado("jose");
         
         
         empleado1.subeSueldo(5);
+        empleado2.subeSueldo(5);
         System.out.println("nombre "+empleado1.getNombre()+" sueldo: "+empleado1.getSueldo()+
-        " fecha de alta: "+empleado1.getAltaContrato());      
+        " fecha de alta: "+empleado1.getAltaContrato());
+        System.out.println("nombre"+empleado2.getNombre()+" sueldo: "+empleado2.getSueldo());
     }
     
 }

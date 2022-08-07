@@ -32,6 +32,11 @@ public class Empleado {
         GregorianCalendar  calendario=new GregorianCalendar(anio, mes-1,dia);
         altaContrato=calendario.getTime();
     }
+    /*sobrecarga de constructor*/
+    public Empleado(String nombre){
+        this(nombre,3000,2000,01,01);
+        
+    }
     
     
     
